@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Azeret Mono", serif;
+}
+.btn_primary{
+    padding: 12px 15px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    background-color: white;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.text_dark{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 20px ;
+
+}
+
+.hadding_primary{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.title_secendary{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+/* banner section design  */
+.banner_content{
+    width: 100%;
+    height: 80vh;
+    background-image: url("./assets/Hero-bg.png");
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.banner_content img{
+    width: 160px;
+}
+
+/* Why_Web_Development_container */
+
+.Why_Web_Development_section{
+    width: 80%;
+    padding: 50px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin: 0 auto;
+}
+.title{
+    text-align: center;
+}
+.Development_container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: #fff;
+}
+.img_content img{
+    width: 170px;
+}
+
+/* my_inspiration_section */
+.my_inspiration_section{
+    width: 80%;
+    height: 519px;
+    margin: 50px auto;
+}
+.my_inspiration{
+    width: 100%;
+    padding: 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.my_inspiration iframe{
+    border-radius: 10px;
+}
+
+.my_current_target{
+    width: 80%;
+    margin: 50px auto;
+    /* background-color: aqua; */
+    margin-top: 100px;
+}
+.my_target{
+display: flex;
+justify-content: space-around;
+}
+.html,
+.css,
+.js{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 20px;
+}
+.css{
+    background: rgba(0, 76, 232, 0.05);
+}
+.js{
+    background: rgba(255, 223, 0, 0.05);
+}
+
+/* my_next_target */
+.my_next_target{
+    margin: 50px 0px;
+}
+
+.target_container{
+    margin-top: 50px;
+    display: flex;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+.img_content img{
+    width: 80px;
+}
+/* i_need_support */
+.i_need_support{
+    width: 80%;
+    height: 209px;
+    border-radius: 16px;
+    background-image: linear-gradient(00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 130%), url("./assets/handshake.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.support_content{
+    width: 70%;
+}
+.support_content h2,
+.support_content p{
+    color: #fff;
+}
+.support_content input{
+    width: 80%;
+    padding: 15px;
+    border-radius: 8px;
+}
+.support_content button{
+    padding: 15px;
+}
+
+/* footer  */
+footer{
+    background: rgba(13, 19, 33, 0.03);
+    padding: 32px 150px 32px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+footer_icon img{
+    width: 24px;
+}
